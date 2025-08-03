@@ -1,0 +1,7 @@
+c65-*
+*.rom
+*.lst
+*.txt
+*.sym
+*.log
+.c65
