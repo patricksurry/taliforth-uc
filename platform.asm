@@ -5,6 +5,7 @@
 
 .weak
 TESTS           = 0             ; enable tests?
+DEBUG           = 0
 .endweak
 
 ; For our minimal build, we'll drop all the optional words
@@ -12,14 +13,11 @@ TESTS           = 0             ; enable tests?
 TALI_ARCH       :?= "c65"
 ; TALI_ARCH       :?= "bb2"
 
-TALI_OPTIONAL_WORDS := [ "block", "noextras" ]
+TALI_OPTIONAL_WORDS := [ "block" ]
 TALI_OPTION_CR_EOL := [ "lf" ]
 TALI_OPTION_MAX_COLS := 40              ; use narrow DUMP
 TALI_OPTION_HISTORY := 0
 TALI_OPTION_TERSE := 1
-
-;TODO
-TALI_ALT := ["dump", "page"]
 
 AscFF       = $0f               ; form feed
 AscTab      = $09               ; tab

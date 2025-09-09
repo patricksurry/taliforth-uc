@@ -109,8 +109,10 @@ _putc:
         inc txt_y               ; NB don't check for scroll yet
         inc txt_pager           ; count rows between keypresses
 .if TALI_ARCH == "c65"
+.if DEBUG == 1
         lda #'|'
         sta io_putc
+.endif
         lda #AscLF
         sta io_putc
 .endif
