@@ -13,8 +13,7 @@ of ROM ($c100-ffff).
 Peripherals currently include a 40x16 text LCD (and/or 240x128 graphics),
 a kit-built mechanical keyboard bit-banging with CircuitPython,
 a one-bit speaker, an SD card reader and a USB-TTY serial interface.
-The kernel is built on a lightly modified version of [TaliForth2](https://github.com/SamCoVT/TaliForth2/),
-found in my [`adventure` branch](https://github.com/patricksurry/TaliForth2/tree/adventure).
+The kernel is built as a platform for [TaliForth2](https://github.com/SamCoVT/TaliForth2/).
 
 Useful links
 ---
@@ -54,7 +53,7 @@ which helps stabilize startup time.
 In case of any discrepancy with the schematic the physical build is obviously definitive.
 Please let me know and I'll fix the schematic.
 
-![breadboard layout](./bb20241014.jpg)
+![breadboard layout](docs/bb20241014.jpg)
 
 Schematic
 ---
