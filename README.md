@@ -84,7 +84,7 @@ which includes much nicer diagrams.  Again Garth's section on
 [address decoding](http://wilsonminesco.com/6502primer/addr_decoding.html)
 is a must read.
 
-![schematic](./uc-schematic.jpg)
+![schematic](docs/uc-schematic.jpg)
 
 Parts list
 ---
